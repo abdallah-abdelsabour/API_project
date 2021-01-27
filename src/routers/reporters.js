@@ -56,7 +56,7 @@ router.get("/reporters/profile", auth, (req, res) => {
 
   catch(e){
 
-    res,send("error")
+    res.send("error")
   }
 });
 
